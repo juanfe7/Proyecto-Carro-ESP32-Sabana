@@ -12,15 +12,15 @@ El sistema se basa en una arquitectura cliente-servidor donde el ESP32 actúa co
 
 
 
-### Presupuesto Económico (Inversión Inicial)
+### Presupuesto Económico (Costos Reales)
 | Componente | Cantidad | Costo Unitario (COP) | Total (COP) |
 | :--- | :---: | :--- | :--- |
-| Kit Chasis (Estructura, Motores, Ruedas) | 1 | $65,000 | $65,000 |
+| Kit Chasis (Estructura, 2 Motores, Ruedas, Rueda Loca) | 1 | $40,000 | $40,000 |
 | Microcontrolador ESP32 DevKit V1 | 1 | $35,000 | $35,000 |
 | Puente H L298N | 1 | $18,000 | $18,000 |
-| Sensor de velocidad HC-020K (Par) | 1 | $20,000 | $20,000 |
+| Sensor de velocidad (MH-Sensor-Series) | 1 | $8,000 | $8,000 |
 | Baterías 18650 + Portapilas | 2 | $25,000 | $50,000 |
-| **Total Invertido** | - | - | **$188,000** |
+| **Total Invertido** | - | - | **$151,000** |
 
 ### Restricciones de Recursos
 * **Hardware:** El ESP32 tiene pines limitados; se debe mapear cuidadosamente el Pinout para evitar conflictos con los pines de "boot" al usar el Puente H y los encoders.
